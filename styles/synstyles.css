@@ -55,3 +55,17 @@
 .syn-shadow-circle:hover {
   border-radius:150px;
 }
+
+.syn-footer-p {
+  margin-top: revert;
+  color: white;
+}
+
+.syn-footer-a {
+    color: white;
+	text-decoration: underline;
+}
+
+.syn-shadow-btn.syn-footer-a:hover {
+    color: white;
+}
