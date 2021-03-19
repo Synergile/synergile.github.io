@@ -47,33 +47,33 @@ body,h1,h2,h3,h4,h5,h6 {
 <body>
 
 <!-- Navbar -->
-<div style="top: 0px;" class="syn-nav-bar w3-green" id="bignav">
+<div style="top: 0px;" class="syn-nav-bar w3-green syn-auto" id="bignav">
   <div class="w3-bar w3-green w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-green" href="javascript:void(0);" onclick="toggleMobileNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-hide-large w3-right w3-padding-large w3-hover-white syn-hide-large w3-large w3-green" href="javascript:void(0);" onclick="toggleMobileNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
 	<a href="/" class="w3-bar-item w3-padding-small w3-green">
 	  <img src="/images/synergile_logo.svg" height="42" class="d-block syn-shadow-rounded-corner syn-shadow-btn" loading="lazy" decoding="async" alt="Synergile icon">
       <span class="sr-only">Synergile logo button</span>
     </a>
-    <a href="/" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
-    <a href="/invite" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Invite</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Commands</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Dashboard</a>
-    <a href="/server" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Support Server</a>
+    <a class="w3-bar-item w3-padding-large syn-hide-large">Synergile</a>
+    <a href="/invite" class="w3-bar-item w3-button w3-hide-small syn-hide-small w3-padding-large w3-hover-white">Invite</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small syn-hide-small w3-padding-large w3-hover-white">Commands</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small syn-hide-small w3-padding-large w3-hover-white">Dashboard</a>
+    <a href="/server" class="w3-bar-item w3-button w3-hide-small syn-hide-small w3-padding-large w3-hover-white">Support Server</a>
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-	<a href="/" class="w3-bar-item w3-button w3-padding-large">Home</a>
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large syn-hide-large syn-dropdown syn-auto w3-large">
     <a href="/invite" class="w3-bar-item w3-button w3-padding-large">Invite</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Commands</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Dashboard</a>
     <a href="/server" class="w3-bar-item w3-button w3-padding-large">Support Server</a>
   </div>
 </div>
+
 <img src="/images/Synergile_Banner.png" alt="Banner. Synergile: A mulitfunctional Discord bot with all the bells and whistles." style="width: 100%;padding: 0px 0px 50px;">
 <!-- Header -->
 <header class="w3-container w3-flat-turquoise w3-center" style="padding:0px 16px">
-  <h1 class="w3-margin w3-jumbo">Synergile</h1>
+  <h1 class="w3-margin w3-jumbo syn-wrap">Synergile</h1>
   <p class="w3-xlarge">A mulitfunctional bot with all the bells and whistles. Features such as moderation, music, utility, and fun!</p>
   <a href="/invite" class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Invite</a>
 </header>
@@ -82,7 +82,7 @@ body,h1,h2,h3,h4,h5,h6 {
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>Functionality</h1>
+      <h1 class="syn-wrap">Functionality</h1>
       <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
 
       <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
@@ -104,7 +104,7 @@ body,h1,h2,h3,h4,h5,h6 {
     </div>
 
     <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
+      <h1 class="syn-wrap">Lorem Ipsum</h1>
       <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
 
       <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
@@ -146,7 +146,7 @@ body,h1,h2,h3,h4,h5,h6 {
 			</li>
 			<li class="syn-footer-hli">
 				<p class="syn-footer-p">
-					Powered by <a href="https://pm1.narvii.com/7230/9470a2fb904c9bbde3c0d5f615abd86d773c1015r1-512-512v2_00.jpg" target="_blank" class="syn-shadow-btn syn-footer-a">The Legend Himself</a>
+					Powered by <a href="https://pm1.narvii.com/7230/9470a2fb904c9bbde3c0d5f615abd86d773c1015r1-512-512v2_00.jpg" target="_blank" class="syn-shadow-btn syn-footer-a syn-wrap">The Legend Himself</a>
 				</p>
 			</li>
 		</ul>

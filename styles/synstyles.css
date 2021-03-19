@@ -66,6 +66,35 @@
 	text-decoration: underline;
 }
 
+.syn-wrap {
+	overflow-wrap: normal;       /* css-3 */
+	white-space: pre-wrap;		 /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
 .syn-shadow-btn.syn-footer-a:hover {
     color: white;
+}
+
+.syn-auto {
+	width: 100%
+}
+
+.syn-dropdown {
+	position: fixed
+}
+
+@media (min-width:641px) {
+	.syn-hide-large {
+        display: none!important
+	}
+}
+
+@media (max-width:640px) {
+	.syn-hide-small {
+        display: none!important
+	}
 }

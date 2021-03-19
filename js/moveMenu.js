@@ -1,5 +1,7 @@
+// Navbar hiding/unhiding when scrolling
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
+  if(window.innerWidth <= 640) return;
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("bignav").style.top = "0";
