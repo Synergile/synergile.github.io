@@ -15,11 +15,6 @@ footer {
 }
 /* End prev comment */
 
-.syn-nav-bar {
-    transition: all 0.3s;
-    position: sticky;
-}
-
 .syn-footer-hul {
 	width: 100%;
 	display: table;
@@ -104,14 +99,27 @@ footer {
 	position: fixed
 }
 
+/* small screens (e.g. typical mobile) */
 @media (min-width:641px) {
 	.syn-hide-large {
         display: none!important
 	}
+
+	.syn-nav-bar {
+		transition: all 0.3s;
+        position: sticky;
+    }
 }
 
+/* larger screens */
 @media (max-width:640px) {
 	.syn-hide-small {
         display: none!important
 	}
+	
+	.syn-nav-bar {
+		transition: all 0s;
+        position: fixed;
+        top: 0px!important;
+    }
 }

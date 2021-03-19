@@ -20,3 +20,12 @@ function toggleMobileNav() {
     x.className = x.className.replace(" w3-show", "");
   }
 }
+
+// Hides the mobile menu if it's open when the screen is resized larger than mobile max size
+window.onresize = function() {
+	if(window.innerWidth < 641) return;
+	var x = document.getElementById("navDemo");
+	if (x.className.indexOf("w3-show") != -1) {
+		toggleMobileNav();
+	}
+}
